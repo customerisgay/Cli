@@ -1,0 +1,1 @@
+!function(){function n(){const n=window.location.hash.slice(1);if(!n)return;const o=document.querySelector(`a[href*="/${n}"]`);o&&o.scrollIntoView({block:"center"})}history.scrollRestoration="manual","loading"===document.readyState?document.addEventListener("DOMContentLoaded",n):n()}();
